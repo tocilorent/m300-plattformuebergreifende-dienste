@@ -145,6 +145,8 @@ Ein grafischer Test über den Browser war aufgrund der Performance der VM nur ei
 <img width="407" height="21" alt="image" src="https://github.com/user-attachments/assets/6c691841-14b1-4585-8939-5b8fee857381" />
 <img width="369" height="22" alt="image" src="https://github.com/user-attachments/assets/ec0e5eca-8e6e-410e-8fce-28ee723fb393" />
 <img width="775" height="612" alt="image" src="https://github.com/user-attachments/assets/1966f3c6-2ccc-4bd6-bdd3-11cb61b62120" />
+<img width="604" height="392" alt="image" src="https://github.com/user-attachments/assets/c360548b-c8de-4a51-9566-02bf2f37e8a7" />
+
 
 
 
@@ -155,6 +157,7 @@ Mit einem Vagrantfile wurde definiert, welche Ubuntu-Box verwendet wird, dass Ap
 Nach dem Start der Vagrant-VM war der Apache-Webserver über http://127.0.0.1:8080 erreichbar.
 
 Während der Einrichtung traten kleinere Fehler auf (z. B. falsche Box-Bezeichnung oder Syntaxfehler im Vagrantfile), welche analysiert und behoben wurden.
+
 
 
 
