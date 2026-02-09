@@ -51,21 +51,8 @@ Repository-Struktur
 
 Die Grundstruktur des Repositories wurde manuell per Kommandozeile erstellt:
 
-mkdir -p docs logs screenshots src vagrant docker scripts
+<img width="719" height="479" alt="image" src="https://github.com/user-attachments/assets/3add3d3c-aefd-4e92-988a-5e34010576dc" />
 
-touch README.md \
-docs/00_index.md \
-docs/01_toolumgebung.md \
-docs/02_services.md \
-docs/03_integrationskonzept.md \
-docs/04_netzwerk.md \
-docs/05_sicherheit.md \
-docs/06_container.md \
-docs/07_tests.md \
-docs/08_fehleranalyse.md \
-docs/09_pro_kontra.md \
-docs/10_fazit.md \
-.gitignore
 
 
 Diese Struktur ermöglicht eine klare und nachvollziehbare Dokumentation gemäss den Handlungszielen des Moduls.
@@ -77,3 +64,4 @@ Versionsverwaltung
 git add -A
 git commit -m "Toolumgebung und Repository-Struktur erstellt"
 git push
+
