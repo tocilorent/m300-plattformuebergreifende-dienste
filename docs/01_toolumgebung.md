@@ -162,7 +162,10 @@ Nach dem Start der Vagrant-VM war der Apache-Webserver über http://127.0.0.1:80
 
 <img width="774" height="805" alt="image" src="https://github.com/user-attachments/assets/4338fdcd-cf51-4a08-b161-c520f5319634" />
 
+Nun könnte man hier mit Befehl "sudo nano /var/www/html/index.html" noch die Seite anpassen und Änderungen vornehmen. Ich lasse das gezielt aus und lösche die VM.
+
 Während der Einrichtung traten kleinere Fehler auf (z. B. falsche Box-Bezeichnung oder Syntaxfehler im Vagrantfile), welche analysiert und behoben wurden.
+
 
 
 
