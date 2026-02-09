@@ -104,6 +104,10 @@ Vagrant-VM einrichten
 <img width="935" height="737" alt="image" src="https://github.com/user-attachments/assets/0bc1fe0d-1231-45c8-8e0f-952b3c8176fb" />
 hier musste ich es in der datei von config.vm.box = "ubuntu/xenial164"
  zu config.vm.box = "ubuntu/xenial64" ändern <img width="1353" height="746" alt="image" src="https://github.com/user-attachments/assets/08200e60-b90f-4f94-8d7b-aa4e8f659ace" />
+ 
+vagrant gebootet<img width="732" height="472" alt="image" src="https://github.com/user-attachments/assets/524ce9fa-19c9-4782-9968-495f6ff6add9" />
+
+
 
 
 
