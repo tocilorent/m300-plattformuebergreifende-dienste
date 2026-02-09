@@ -68,4 +68,6 @@ git push
 Virtualbox war bereits installiert
 <img width="906" height="633" alt="image" src="https://github.com/user-attachments/assets/0fcaaa85-d9a9-42a6-bc72-4cd63761b33f" />
 
+Vagrant installieren und konfigurieren
+
 
