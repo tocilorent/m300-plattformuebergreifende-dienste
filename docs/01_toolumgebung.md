@@ -160,8 +160,10 @@ Nach dem Start der Vagrant-VM war der Apache-Webserver über http://127.0.0.1:80
 
 <img width="839" height="365" alt="image" src="https://github.com/user-attachments/assets/9a07eefe-2503-4528-a18d-518c5d57907b" />
 
+<img width="774" height="805" alt="image" src="https://github.com/user-attachments/assets/4338fdcd-cf51-4a08-b161-c520f5319634" />
 
 Während der Einrichtung traten kleinere Fehler auf (z. B. falsche Box-Bezeichnung oder Syntaxfehler im Vagrantfile), welche analysiert und behoben wurden.
+
 
 
 
