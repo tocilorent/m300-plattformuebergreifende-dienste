@@ -114,6 +114,8 @@ Einloggen in VM:
 Apache automatisch mit Vagrant installieren:
 Vagrantfile geändert und folgenden Code eingefügt: <img width="1370" height="565" alt="image" src="https://github.com/user-attachments/assets/d121259b-c84f-4233-b23c-de9cbacd29bf" />
 
+Apache aufgesetzt und ist per Browser erreichbar <img width="927" height="1019" alt="image" src="https://github.com/user-attachments/assets/307e6017-90ab-4862-b1a9-ea69f032ba63" />
+
 
 
 
