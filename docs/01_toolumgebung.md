@@ -96,6 +96,10 @@ VM Ubuntu nun erfolgreich installiert nun das Einrichten:
 Im Ubuntu-Terminal folgenden Befehl eingegeben: <img width="615" height="352" alt="image" src="https://github.com/user-attachments/assets/1c99699a-c973-48a6-9d35-cbbc87bec236" />
 Anschliessend diesen Befehl eingegeben: <img width="490" height="28" alt="image" src="https://github.com/user-attachments/assets/596422d2-6fe4-4e88-ade8-f37f1f799a54" />
 und danach noch diesen Befehl eingegeben: <img width="446" height="26" alt="image" src="https://github.com/user-attachments/assets/cdc582df-2670-42bd-a041-d1e26e55730f" />
+Der Apache-Webserver wurde erfolgreich installiert.
+Ein grafischer Test über den Browser war aufgrund von Performance-Problemen der VM nur eingeschränkt möglich.
+Die erfolgreiche Installation wurde über den Paketmanager (apt) verifiziert.
+
 
 
 
