@@ -141,6 +141,8 @@ Das System wurde aktualisiert und Apache über den Paketmanager installiert.
 Ein grafischer Test über den Browser war aufgrund der Performance der VM nur eingeschränkt möglich, die Installation wurde jedoch erfolgreich durchgeführt.
 
 <img width="810" height="642" alt="image" src="https://github.com/user-attachments/assets/3197ce40-ccc6-4ab1-9a49-ae5915ac6266" />
+<img width="508" height="294" alt="image" src="https://github.com/user-attachments/assets/c0d0c90f-329f-4015-8b28-ea3cb265025c" />
+
 
 
 Anschliessend wurde Vagrant eingesetzt, um die VM automatisiert zu erstellen.
@@ -148,6 +150,7 @@ Mit einem Vagrantfile wurde definiert, welche Ubuntu-Box verwendet wird, dass Ap
 Nach dem Start der Vagrant-VM war der Apache-Webserver über http://127.0.0.1:8080 erreichbar.
 
 Während der Einrichtung traten kleinere Fehler auf (z. B. falsche Box-Bezeichnung oder Syntaxfehler im Vagrantfile), welche analysiert und behoben wurden.
+
 
 
 
