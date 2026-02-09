@@ -123,6 +123,25 @@ Nun könnte man hier mit Befehl "sudo nano /var/www/html/index.html" noch die Se
 
 
 
+Für die Bearbeitung des Moduls M300 wurde eine lokale Toolumgebung eingerichtet.
+
+Zuerst wurde ein GitHub-Account erstellt und ein öffentliches Repository angelegt.
+Zur lokalen Arbeit wurde Git Bash installiert und mit Benutzername sowie E-Mail konfiguriert.
+Für die Anmeldung bei GitHub wurde ein SSH-Key erstellt, im GitHub-Account hinterlegt und die Verbindung erfolgreich getestet. Dadurch ist das Arbeiten mit git clone, git commit und git push möglich.
+
+Das Repository wurde lokal geklont und eine Ordnerstruktur für die Dokumentation erstellt.
+Änderungen werden regelmässig committet und auf GitHub gespeichert.
+
+Für die Virtualisierung wurde Oracle VirtualBox verwendet.
+Eine Ubuntu-VM wurde manuell erstellt, um den klassischen Weg kennenzulernen.
+Das System wurde aktualisiert und Apache über den Paketmanager installiert.
+Ein grafischer Test über den Browser war aufgrund der Performance der VM nur eingeschränkt möglich, die Installation wurde jedoch erfolgreich durchgeführt.
+
+Anschliessend wurde Vagrant eingesetzt, um die VM automatisiert zu erstellen.
+Mit einem Vagrantfile wurde definiert, welche Ubuntu-Box verwendet wird, dass Apache automatisch installiert wird und dass eine Portweiterleitung vom Host auf die VM erfolgt.
+Nach dem Start der Vagrant-VM war der Apache-Webserver über http://127.0.0.1:8080 erreichbar.
+
+Während der Einrichtung traten kleinere Fehler auf (z. B. falsche Box-Bezeichnung oder Syntaxfehler im Vagrantfile), welche analysiert und behoben wurden.
 
 
 
