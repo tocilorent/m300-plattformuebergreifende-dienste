@@ -140,11 +140,15 @@ Eine Ubuntu-VM wurde manuell erstellt, um den klassischen Weg kennenzulernen.
 Das System wurde aktualisiert und Apache über den Paketmanager installiert.
 Ein grafischer Test über den Browser war aufgrund der Performance der VM nur eingeschränkt möglich, die Installation wurde jedoch erfolgreich durchgeführt.
 
+<img width="810" height="642" alt="image" src="https://github.com/user-attachments/assets/3197ce40-ccc6-4ab1-9a49-ae5915ac6266" />
+
+
 Anschliessend wurde Vagrant eingesetzt, um die VM automatisiert zu erstellen.
 Mit einem Vagrantfile wurde definiert, welche Ubuntu-Box verwendet wird, dass Apache automatisch installiert wird und dass eine Portweiterleitung vom Host auf die VM erfolgt.
 Nach dem Start der Vagrant-VM war der Apache-Webserver über http://127.0.0.1:8080 erreichbar.
 
 Während der Einrichtung traten kleinere Fehler auf (z. B. falsche Box-Bezeichnung oder Syntaxfehler im Vagrantfile), welche analysiert und behoben wurden.
+
 
 
 
