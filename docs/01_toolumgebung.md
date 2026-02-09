@@ -158,7 +158,11 @@ Anschliessend wurde Vagrant eingesetzt, um die VM automatisiert zu erstellen.
 Mit einem Vagrantfile wurde definiert, welche Ubuntu-Box verwendet wird, dass Apache automatisch installiert wird und dass eine Portweiterleitung vom Host auf die VM erfolgt.
 Nach dem Start der Vagrant-VM war der Apache-Webserver über http://127.0.0.1:8080 erreichbar.
 
+<img width="839" height="365" alt="image" src="https://github.com/user-attachments/assets/9a07eefe-2503-4528-a18d-518c5d57907b" />
+
+
 Während der Einrichtung traten kleinere Fehler auf (z. B. falsche Box-Bezeichnung oder Syntaxfehler im Vagrantfile), welche analysiert und behoben wurden.
+
 
 
 
