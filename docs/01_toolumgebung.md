@@ -90,6 +90,9 @@ Vagrant installieren und konfigurieren
 
 Ubuntu VM erstellen in Virtualbox
 <img width="1043" height="687" alt="image" src="https://github.com/user-attachments/assets/fadbf146-d411-4d67-a914-041c4d8caea2" />
+<img width="976" height="773" alt="image" src="https://github.com/user-attachments/assets/83af43fa-991e-4c07-a9c5-b9af8f68a556" />
+
+
 
 
 
