@@ -100,6 +100,14 @@ Der Apache-Webserver wurde erfolgreich installiert.
 Ein grafischer Test über den Browser war aufgrund von Performance-Problemen der VM nur eingeschränkt möglich.
 Die erfolgreiche Installation wurde über den Paketmanager (apt) verifiziert.
 
+Vagrant-VM einrichten
+<img width="935" height="737" alt="image" src="https://github.com/user-attachments/assets/0bc1fe0d-1231-45c8-8e0f-952b3c8176fb" />
+hier musste ich es in der datei von config.vm.box = "ubuntu/xenial164"
+ zu config.vm.box = "ubuntu/xenial64" ändern <img width="1353" height="746" alt="image" src="https://github.com/user-attachments/assets/08200e60-b90f-4f94-8d7b-aa4e8f659ace" />
+
+
+
+
 
 
 
