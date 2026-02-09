@@ -92,6 +92,14 @@ Ubuntu VM erstellen in Virtualbox
 <img width="1043" height="687" alt="image" src="https://github.com/user-attachments/assets/fadbf146-d411-4d67-a914-041c4d8caea2" />
 <img width="976" height="773" alt="image" src="https://github.com/user-attachments/assets/83af43fa-991e-4c07-a9c5-b9af8f68a556" />
 
+VM Ubuntu nun erfolgreich installiert nun das Einrichten:
+Im Ubuntu-Terminal folgenden Befehl eingegeben: <img width="615" height="352" alt="image" src="https://github.com/user-attachments/assets/1c99699a-c973-48a6-9d35-cbbc87bec236" />
+Anschliessend diesen Befehl eingegeben: <img width="490" height="28" alt="image" src="https://github.com/user-attachments/assets/596422d2-6fe4-4e88-ade8-f37f1f799a54" />
+und danach noch diesen Befehl eingegeben: <img width="446" height="26" alt="image" src="https://github.com/user-attachments/assets/cdc582df-2670-42bd-a041-d1e26e55730f" />
+
+
+
+
 
 
 
