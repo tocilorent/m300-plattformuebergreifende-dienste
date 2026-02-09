@@ -107,6 +107,17 @@ hier musste ich es in der datei von config.vm.box = "ubuntu/xenial164"
  
 vagrant gebootet<img width="732" height="472" alt="image" src="https://github.com/user-attachments/assets/524ce9fa-19c9-4782-9968-495f6ff6add9" />
 
+Einloggen in VM:
+<img width="891" height="785" alt="image" src="https://github.com/user-attachments/assets/48f30822-e021-4ff4-b3e5-61d277955215" />
+<img width="943" height="599" alt="image" src="https://github.com/user-attachments/assets/a9385fa5-4cac-449a-a4d0-0e675524b1ee" />
+
+Apache automatisch mit Vagrant installieren:
+folgendes im Vagrantfile geändert: <img width="898" height="627" alt="image" src="https://github.com/user-attachments/assets/1cf4e88e-f538-4a40-9f49-de5bb3b61ef9" />
+
+
+
+
+
 
 
 
