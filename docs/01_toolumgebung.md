@@ -130,8 +130,7 @@ Zur lokalen Arbeit wurde Git Bash installiert und mit Benutzername sowie E-Mail 
 Für die Anmeldung bei GitHub wurde ein SSH-Key erstellt, im GitHub-Account hinterlegt und die Verbindung erfolgreich getestet. Dadurch ist das Arbeiten mit git clone, git commit und git push möglich.
 
 Das Repository wurde lokal geklont und eine Ordnerstruktur für die Dokumentation erstellt.
-Änderungen werden regelmässig committet und auf GitHub gespeichert.
-<img width="595" height="398" alt="image" src="https://github.com/user-attachments/assets/857315dc-d067-4963-a03a-eb66c4488644" />
+Änderungen werden regelmässig committet und auf GitHub gespeichert.<img width="595" height="398" alt="image" src="https://github.com/user-attachments/assets/857315dc-d067-4963-a03a-eb66c4488644" />
 
 
 Für die Virtualisierung wurde Oracle VirtualBox verwendet.
@@ -144,6 +143,7 @@ Mit einem Vagrantfile wurde definiert, welche Ubuntu-Box verwendet wird, dass Ap
 Nach dem Start der Vagrant-VM war der Apache-Webserver über http://127.0.0.1:8080 erreichbar.
 
 Während der Einrichtung traten kleinere Fehler auf (z. B. falsche Box-Bezeichnung oder Syntaxfehler im Vagrantfile), welche analysiert und behoben wurden.
+
 
 
 
