@@ -106,11 +106,22 @@ Per Browser: http://192.168.56.11
 <img width="944" height="264" alt="image" src="https://github.com/user-attachments/assets/49c77721-a8c2-4633-83e9-8aa86cc97466" />
 
 # Firewall prüfen
-## SSH-Debug
-SSH ist verbunden, aber das Terminal zeigt keinen Prompt an
-→ 100 % ein TTY / Terminal-Problem, kein Server-Problem.
+## Fehler im Vagrantfile - Vagrantfile neu aufsetzen
+<img width="769" height="94" alt="image" src="https://github.com/user-attachments/assets/cf21206d-5cf2-41f7-906c-d159d498a52a" />
 
-<img width="940" height="805" alt="image" src="https://github.com/user-attachments/assets/3e7b6e80-e557-4798-aad5-0077294abdf2" />
+Folgender Inhalt wurde im Vagrantfile eingefügt: 
+<img width="769" height="94" alt="image" src="https://github.com/user-attachments/assets/6fb04ee4-7057-4c83-a525-ea0df7e7dc48" />
+
+### Vagrantfile nochmal Testen
+<img width="812" height="225" alt="image" src="https://github.com/user-attachments/assets/36deb8b8-c498-4074-ae7b-5cc2e4a1ea60" />
+## Nach Fehlerbehebung weitermachen
+<img width="778" height="47" alt="image" src="https://github.com/user-attachments/assets/3214a2b1-c2e0-4362-b579-b4cc7603a31f" />
+
+<img width="783" height="310" alt="image" src="https://github.com/user-attachments/assets/8916c277-2b44-4b6f-8c92-16e2677ab4b4" />
+
+
+
+
 
 
 
