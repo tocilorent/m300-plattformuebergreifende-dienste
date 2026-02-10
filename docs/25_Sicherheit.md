@@ -1,3 +1,15 @@
+# M300 – 25 Infrastruktur-Sicherheit
+
+## Ziel
+Sicherheit einer virtualisierten Infrastruktur verbessern: Firewall + Reverse Proxy (Apache).
+
+## Setup
+Projekt: `vagrant/fwrp`
+
+VMs:
+- `proxy` (192.168.56.10): Apache Reverse Proxy + UFW Firewall, Portforwarding Host:8085 → VM:80
+- `backend` (192.168.56.11): Apache Webserver (intern)
+
 # Ordnerstruktur im Repo
 cd ~/m300-plattformuebergreifende-dienste
 mkdir -p vagrant/fwrp
@@ -92,5 +104,8 @@ Per Browser: http://192.168.56.11
 <img width="956" height="285" alt="image" src="https://github.com/user-attachments/assets/d46388d4-41f2-4ccb-9317-c6d9538cd2f2" />
 ## Reverseproxy richtig erreichbar?
 <img width="944" height="264" alt="image" src="https://github.com/user-attachments/assets/49c77721-a8c2-4633-83e9-8aa86cc97466" />
+
+# Firewall prüfen
+
 
 
