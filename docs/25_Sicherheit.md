@@ -88,3 +88,6 @@ end
 # Funktionstest
 ## Backend richtig erreichbar? (aus Host)
 Per Browser: http://192.168.56.11
+
+<img width="956" height="285" alt="image" src="https://github.com/user-attachments/assets/d46388d4-41f2-4ccb-9317-c6d9538cd2f2" />
+
