@@ -114,7 +114,7 @@ Folgender Inhalt wurde im Vagrantfile eingefügt:
 
 ### Vagrantfile nochmal Testen
 <img width="812" height="225" alt="image" src="https://github.com/user-attachments/assets/36deb8b8-c498-4074-ae7b-5cc2e4a1ea60" />
-## Nach Fehlerbehebung weitermachen
+> Nach Fehlerbehebung weitermachen
 <img width="778" height="47" alt="image" src="https://github.com/user-attachments/assets/3214a2b1-c2e0-4362-b579-b4cc7603a31f" />
 
 <img width="783" height="310" alt="image" src="https://github.com/user-attachments/assets/8916c277-2b44-4b6f-8c92-16e2677ab4b4" />
