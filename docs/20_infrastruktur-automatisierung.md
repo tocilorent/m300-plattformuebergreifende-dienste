@@ -1,34 +1,57 @@
-# M300 – Infrastruktur-Automatisierung
+# M300 – 20 Infrastruktur-Automatisierung
 
 ## Ziel
-Ziel dieses Kapitels ist es, die Grundlagen von Cloud Computing und Infrastructure as Code (IaC) zu verstehen und den Bezug zur praktisch umgesetzten Toolumgebung herzustellen.
+Grundlagen von Cloud Computing, Infrastructure as Code (IaC) und Automatisierung von Infrastruktur verstehen.
 
-## Cloud Computing
-Cloud Computing beschreibt die Bereitstellung von IT-Ressourcen wie Server, Speicher oder Software über ein Netzwerk. Diese Ressourcen werden nicht lokal installiert, sondern flexibel und bedarfsgesteuert genutzt.
+---
 
-Man unterscheidet dabei drei Modelle:
-- **IaaS (Infrastructure as a Service):** Virtuelle Maschinen, Netzwerke und Speicher werden bereitgestellt, die Verwaltung des Systems erfolgt durch den Benutzer.
-- **PaaS (Platform as a Service):** Eine Plattform zur Ausführung von Anwendungen ohne direkte Serververwaltung.
-- **SaaS (Software as a Service):** Fertige Anwendungen, die direkt genutzt werden können (z. B. Webdienste).
+## 1) Cloud Computing
+Cloud Computing bedeutet, dass Rechenleistung, Speicher und Software über ein Netzwerk bereitgestellt und genutzt werden.
 
-## Infrastructure as Code
-Infrastructure as Code bezeichnet den Ansatz, IT-Infrastruktur nicht manuell, sondern über Konfigurationsdateien zu definieren und automatisiert bereitzustellen.  
-Dadurch sind Systeme reproduzierbar, konsistent und schnell neu erstellbar.
+### Service-Modelle
+- **IaaS (Infrastructure as a Service):** Virtuelle Maschinen, Netzwerke, Storage – Verwaltung liegt beim Nutzer.
+- **PaaS (Platform as a Service):** Plattform für Deployments – keine Serververwaltung durch Nutzer.
+- **SaaS (Software as a Service):** Fertige Anwendungen, die direkt genutzt werden (z.B. Webmail).
 
-Änderungen an der Infrastruktur können versioniert, getestet und jederzeit erneut ausgerollt werden.
+### CaaS (Container as a Service)
+Zwischen IaaS und PaaS: Container-Workloads (Docker/Kubernetes) laufen auf bereitgestellter Infrastruktur.
 
-## Vagrant als IaC-Werkzeug
-Vagrant ist ein Werkzeug zur automatisierten Erstellung und Verwaltung von virtuellen Maschinen.  
-Die gesamte Konfiguration erfolgt über ein sogenanntes *Vagrantfile*.
+---
 
-Im Rahmen von Kapitel 10 wurde Vagrant verwendet, um eine Ubuntu-VM automatisiert zu erstellen.  
-Dabei wurden:
-- eine definierte Ubuntu-Box verwendet
-- Apache automatisch installiert (Provisioning)
-- eine Portweiterleitung vom Host zur VM eingerichtet
+## 2) Infrastructure as Code (IaC)
+IaC beschreibt Infrastruktur als Code/Definitionen, die versioniert und wiederholbar ausgerollt werden.
 
-Dies ist ein praktisches Beispiel für Infrastructure as Code, da die Infrastruktur vollständig durch Code beschrieben und reproduzierbar erstellt wurde.
+**Vorteile:**
+- Reproduzierbar und konsistent
+- Schnell wiederherstellbar
+- Änderungen sind standardisiert und nachvollziehbar (Versionierung)
 
-## Fazit
-Durch den Einsatz von Infrastructure as Code und Vagrant kann Infrastruktur schneller, zuverlässiger und nachvollziehbarer bereitgestellt werden.  
-Manuelle Installationen werden reduziert und Fehlerquellen minimiert.
+---
+
+## 3) Vagrant
+Vagrant automatisiert die Erstellung von virtuellen Maschinen über ein **Vagrantfile**.
+
+**Wichtige Befehle:**
+- `vagrant init` (Vagrantfile erstellen)
+- `vagrant up` (VM erstellen/starten)
+- `vagrant ssh` (in VM verbinden)
+- `vagrant halt` (stoppen)
+- `vagrant destroy -f` (löschen)
+
+---
+
+## 4) Packer (optional)
+Packer erstellt automatisiert VM-Images (z.B. für VirtualBox, AWS).
+- Konfiguration meist als JSON
+- kann am Ende z.B. eine Vagrant-Box ausgeben
+
+---
+
+## 5) AWS Cloud (optional)
+AWS ist eine Public Cloud (IaaS). Per IAM User + Keys kann man z.B. EC2 Instanzen starten.
+Vagrant kann über Plugins auch Instanzen in AWS automatisiert erzeugen.
+
+---
+
+## Reflexion (kurz)
+IaC macht Infrastruktur wiederholbar und spart Zeit. Vagrant eignet sich gut für lokale Automatisierung, Packer für eigene Images, AWS für skalierbare Public-Cloud-Umgebungen.
