@@ -106,6 +106,12 @@ Per Browser: http://192.168.56.11
 <img width="944" height="264" alt="image" src="https://github.com/user-attachments/assets/49c77721-a8c2-4633-83e9-8aa86cc97466" />
 
 # Firewall prüfen
+## SSH-Debug
+SSH ist verbunden, aber das Terminal zeigt keinen Prompt an
+→ 100 % ein TTY / Terminal-Problem, kein Server-Problem.
+
+<img width="940" height="805" alt="image" src="https://github.com/user-attachments/assets/3e7b6e80-e557-4798-aad5-0077294abdf2" />
+
 
 
 
