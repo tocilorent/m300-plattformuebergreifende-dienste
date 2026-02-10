@@ -90,4 +90,7 @@ end
 Per Browser: http://192.168.56.11
 
 <img width="956" height="285" alt="image" src="https://github.com/user-attachments/assets/d46388d4-41f2-4ccb-9317-c6d9538cd2f2" />
+## Reverseproxy richtig erreichbar?
+<img width="944" height="264" alt="image" src="https://github.com/user-attachments/assets/49c77721-a8c2-4633-83e9-8aa86cc97466" />
+
 
