@@ -119,6 +119,18 @@ Folgender Inhalt wurde im Vagrantfile eingefügt:
 
 <img width="783" height="310" alt="image" src="https://github.com/user-attachments/assets/8916c277-2b44-4b6f-8c92-16e2677ab4b4" />
 
+<img width="546" height="258" alt="image" src="https://github.com/user-attachments/assets/da9ab034-9c31-4ed2-a272-1942c22e4a5d" />
+
+<img width="925" height="247" alt="image" src="https://github.com/user-attachments/assets/029be915-ea6f-489f-9fda-bbdcefb3a74d" />
+
+## Läuft Apache?
+<img width="763" height="300" alt="image" src="https://github.com/user-attachments/assets/af2d5d00-7aac-4fbb-80aa-530bd601bdc4" />
+
+<img width="711" height="221" alt="image" src="https://github.com/user-attachments/assets/bd9cf449-4a30-43c7-a1f1-732a8ed2c9d5" />
+
+
+
+
 
 
 
