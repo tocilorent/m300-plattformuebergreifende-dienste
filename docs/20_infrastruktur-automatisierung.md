@@ -56,7 +56,7 @@ Vagrant kann über Plugins auch Instanzen in AWS automatisiert erzeugen.
 ## Reflexion (kurz)
 IaC macht Infrastruktur wiederholbar und spart Zeit. Vagrant eignet sich gut für lokale Automatisierung, Packer für eigene Images, AWS für skalierbare Public-Cloud-Umgebungen.
 
-## Vagrant-VM automatisch erstelen
+## Vagrant-VM automatisch erstellen
 Neuen Ordner erstellt 
 
 <img width="861" height="332" alt="image" src="https://github.com/user-attachments/assets/7be19a09-38d8-4a20-ad86-23090916634f" />
