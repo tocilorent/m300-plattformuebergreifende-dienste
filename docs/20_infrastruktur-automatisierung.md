@@ -103,4 +103,82 @@ VM gestartet (vagrant up) und Test im Browser durchgeführt:
 <img width="941" height="796" alt="image" src="https://github.com/user-attachments/assets/922d9d6e-710c-48a9-9900-953171e37181" />
 
 
+## Optionale Tasks
+# Packer 
+Was ist Packer?
+
+Packer ist ein Tool, um Images/VM-Templates automatisiert zu bauen. Statt eine VM manuell zu installieren und zu konfigurieren, beschreibt man alles in einer Konfig-Datei. Ergebnis ist z.B. eine Vagrant-Box oder ein VM-Image für VirtualBox/AWS.
+
+Grobe Funktionsweise
+
+Builder: Erstellt die VM/Instanz (z.B. virtualbox-iso oder AWS AMI).
+
+Provisioner: Führt Konfiguration aus (z.B. Shell-Scripts: apt-get install …).
+
+Post-Processor: Nimmt das Ergebnis und packt es z.B. als .box (Vagrant-Box) oder exportiert es.
+
+Installation / Test (Beispiel)
+
+Packer downloaden (ZIP), entpacken und packer ins PATH legen.
+
+Test im Terminal:
+
+packer --version
+
+## AWS Cloud
+Grundbegriffe
+
+Root Account: Vollzugriff auf alles. Im Alltag nicht benutzen.
+
+Region: Standort der Rechenzentren (z.B. eu-central-1 Frankfurt).
+
+IAM User: Separater User mit definierten Rechten (Policies), z.B. für EC2.
+
+Security Group: Firewall-Regeln für eine Instanz (Inbound/Outbound).
+
+Typisch: Port 22 (SSH) und 80 (HTTP) öffnen.
+
+Key Pair: SSH-Schlüssel.
+
+Public Key bleibt bei AWS, Private Key wird lokal gespeichert → damit verbindet man sich per SSH.
+
+Vagrant mit AWS (Konzept)
+
+Mit dem Plugin vagrant-aws kann Vagrant EC2-Instanzen statt VirtualBox-VMs erstellen. Weil Vagrant trotzdem eine „Box“ erwartet, nutzt man eine Dummy-Box als Platzhalter.
+
+Setup (Beispiel)
+
+Plugin installieren + Dummy-Box hinzufügen:
+
+vagrant plugin install vagrant-aws
+vagrant box add dummy https://github.com/mitchellh/vagrant-aws/raw/master/dummy.box
+
+
+AWS-Konfiguration wird typischerweise in zwei Dateien gemacht:
+
+config.rb (Zugangsdaten/Parameter)
+
+access_key
+
+secret_key
+
+region
+
+ami_id
+
+security_group
+
+keypair_name
+
+Vagrantfile (Provider aws + Provisioning)
+
+Provider: aws
+
+SSH-Key: private_key_path
+
+Provisioning: z.B. apt-get install apache2
+
+Starten würde dann so aussehen:
+
+vagrant up web --provider=aws
 
