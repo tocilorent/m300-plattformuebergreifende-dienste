@@ -1,6 +1,0 @@
-## Ordner für l2b lokal erstellen
-
-mkdir -p lb2/webalizer
-cd lb2/webalizer
-
-## Vagrant-Projekt erstellen
