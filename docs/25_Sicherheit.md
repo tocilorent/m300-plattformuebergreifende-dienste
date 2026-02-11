@@ -110,7 +110,37 @@ Per Browser: http://192.168.56.11
 <img width="769" height="94" alt="image" src="https://github.com/user-attachments/assets/cf21206d-5cf2-41f7-906c-d159d498a52a" />
 
 Folgender Inhalt wurde im Vagrantfile eingefügt: 
-<img width="769" height="94" alt="image" src="https://github.com/user-attachments/assets/6fb04ee4-7057-4c83-a525-ea0df7e7dc48" />
+Vagrant.configure("2") do |config|
+
+  config.vm.define "proxy" do |proxy|
+    proxy.vm.box = "ubuntu/xenial64"
+    proxy.vm.hostname = "proxy"
+    proxy.vm.network "private_network", ip: "192.168.56.10"
+
+    proxy.vm.provision "shell", inline: <<-SHELL
+      sudo apt-get update
+      sudo apt-get -y install apache2 ufw
+
+      # Firewall reset
+      sudo ufw --force reset
+
+      # Standard Regeln
+      sudo ufw default deny incoming
+      sudo ufw default allow outgoing
+
+      # HTTP erlauben
+      sudo ufw allow 80/tcp
+
+      # SSH nur vom Host erlauben
+      sudo ufw allow from 192.168.56.1 to any port 22
+
+      # Firewall aktivieren
+      sudo ufw --force enable
+    SHELL
+  end
+
+end
+
 
 ### Vagrantfile nochmal Testen
 <img width="812" height="225" alt="image" src="https://github.com/user-attachments/assets/36deb8b8-c498-4074-ae7b-5cc2e4a1ea60" />
