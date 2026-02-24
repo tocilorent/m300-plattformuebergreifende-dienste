@@ -43,6 +43,8 @@ Ich bin im richtigen Docker drin und er läuft korrekt, jedoch läuft noch mein 
 Das Ganze wurde nun aufgeräumt
 <img width="936" height="216" alt="image" src="https://github.com/user-attachments/assets/d946b514-5407-408a-8de6-a15f40e74447" />
 
+## Nextcloud einrichten
+
 
 
 
