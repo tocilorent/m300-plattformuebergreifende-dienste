@@ -94,6 +94,9 @@ Nextcloud ist nun up
 
 <img width="1898" height="712" alt="image" src="https://github.com/user-attachments/assets/59c128e4-f396-46fd-88b9-a2711ee44002" />
 
+### MariaDB
+<img width="665" height="191" alt="image" src="https://github.com/user-attachments/assets/6515322b-4e27-47b7-8756-80fa3f9f976b" />
+
 ### Netzwerk
 - 8080 -> Nextcloud Webinterdace
 - 3306 -> MariaDB (Intern) (MariaDB ist nicht über den Browser erreichbar, da sie als interner Dienst im Docker-Netzwerk läuft und ausschließlich von Nextcloud verwendet wird. Der Port 3306 ist nicht nach außen exponiert, was die Sicherheit erhöht.)
