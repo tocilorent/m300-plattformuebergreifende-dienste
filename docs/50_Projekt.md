@@ -43,7 +43,7 @@ Ich bin im richtigen Docker drin und er läuft korrekt, jedoch läuft noch mein 
 Das Ganze wurde nun aufgeräumt
 <img width="936" height="216" alt="image" src="https://github.com/user-attachments/assets/d946b514-5407-408a-8de6-a15f40e74447" />
 
-## Nextcloud Projekt
+## Fehler bei Erstellung von Nextcloud
 ### MariaDB starten
 <img width="939" height="441" alt="image" src="https://github.com/user-attachments/assets/711fcb5e-f6c4-491c-9164-c3cdf95da248" />
 
@@ -72,6 +72,7 @@ In der Vagrant/Xenial VM gab es reproduzierbare Probleme (Logs + Fehlerauszug).
 Ich umgehe das in dem ich die Docker-Desktop Version benutze und dort ein Compose erstelle
 Ziel ist Containerisierung + Networking + Volumes + Monitoring.
 
+## Neuanfang 
 
 
 
