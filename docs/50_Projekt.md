@@ -19,4 +19,17 @@ Ziel dieses Projektes ist es:
 - Fehler systematisch zu dokumentieren und zu beheben
 - Das Projekt soll zeigen, wie moderne Dienste containerisiert bereitgestellt, strukturiert konfiguriert und kontrolliert überwacht werden können.
 
+## Geplante Architektur 
+
+Die Architektur basiert auf einer klaren Trennung der Komponenten:
+
+- Hostsystem: Notebook mit Vagrant & VirtualBox
+- Virtuelle Maschine: Ubuntu 16.04
+- Containerisierung: Docker Engine
+- Frontend: Nextcloud Container
+- Backend: MariaDB Container
+- Monitoring: cAdvisor Container
+- Netzwerk: Docker internes Netzwerk
+- Persistenz: Docker Volumes
+
 
