@@ -27,6 +27,8 @@ Die Architektur basiert auf einer klaren Trennung der Komponenten:
 - Monitoring: Uptime Kuma Container
 - Netzwerk: Docker internes Bridge-Netzwerk
 - Persistenz: Docker Volumes
+
+  
 -> Final umgesetzt mit Docker Desktop + Docker Compose (lokal)
 -> Vagrant/Ubuntu war Test/Fehlerphase und wird im Kapitel "Fehleranalyse" dokumentiert
 
