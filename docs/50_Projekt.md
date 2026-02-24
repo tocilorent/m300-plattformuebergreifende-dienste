@@ -122,6 +122,10 @@ Datenbank prüfen
 ### Datei noch da -> Persistenz funktioniert
 <img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/7e7c512f-476a-4a5e-bc9f-d2fc5186f004" />
 
+## Nachweis Netzwerkstruktur
+<img width="933" height="197" alt="image" src="https://github.com/user-attachments/assets/34d1bb39-3a43-4f88-98ae-4c2a653e6836" />
+
+
 
 
 
