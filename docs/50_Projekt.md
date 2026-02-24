@@ -96,7 +96,7 @@ Nextcloud ist nun up
 
 ### Netzwerk
 - 8080 -> Nextcloud Webinterdace
-- 3306 -> MariaDB (Intern)
+- 3306 -> MariaDB (Intern) (MariaDB ist nicht über den Browser erreichbar, da sie als interner Dienst im Docker-Netzwerk läuft und ausschließlich von Nextcloud verwendet wird. Der Port 3306 ist nicht nach außen exponiert, was die Sicherheit erhöht.)
 - 3001 -> Uptime Kuma
 
 <img width="610" height="176" alt="image" src="https://github.com/user-attachments/assets/e0cbe4a1-91e3-4340-8109-3cadac9d3970" />
