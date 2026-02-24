@@ -101,6 +101,9 @@ Nextcloud ist nun up
 
 <img width="610" height="176" alt="image" src="https://github.com/user-attachments/assets/e0cbe4a1-91e3-4340-8109-3cadac9d3970" />
 
+<img width="1891" height="982" alt="image" src="https://github.com/user-attachments/assets/dd04d167-d1f8-4872-be8c-405da5ed546a" />
+
+
 
 
 
