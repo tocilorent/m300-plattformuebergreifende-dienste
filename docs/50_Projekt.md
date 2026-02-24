@@ -74,6 +74,8 @@ Ziel ist Containerisierung + Networking + Volumes + Monitoring.
 
 ## Neuanfang 
 Docker gestartet
+
+
 <img width="619" height="35" alt="image" src="https://github.com/user-attachments/assets/4b1a9ccc-124f-48fb-b636-df8930de548e" />
 
 
