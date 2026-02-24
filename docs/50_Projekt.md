@@ -125,6 +125,15 @@ Datenbank prüfen
 ## Nachweis Netzwerkstruktur
 <img width="933" height="197" alt="image" src="https://github.com/user-attachments/assets/34d1bb39-3a43-4f88-98ae-4c2a653e6836" />
 
+## Host - Container Ineraktion zeigen
+Das ist das Root-Verzeichnis von Nextcloud
+
+<img width="681" height="604" alt="image" src="https://github.com/user-attachments/assets/e519d1c3-e11d-43ff-a9bb-deee3393e8a9" />
+
+<img width="886" height="143" alt="image" src="https://github.com/user-attachments/assets/71218c55-c780-429f-b965-323d00c2b0e2" />
+
+
+
 
 
 
