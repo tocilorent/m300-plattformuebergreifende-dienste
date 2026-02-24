@@ -80,6 +80,15 @@ Docker gestartet
 
 <img width="933" height="326" alt="image" src="https://github.com/user-attachments/assets/53f3cdd1-a93c-477d-bcf2-401e12be9168" />
 
+## Test im Browser
+### Nextcloud
+<img width="1915" height="1013" alt="image" src="https://github.com/user-attachments/assets/9ab1c66c-7fa8-4ca4-9ebb-77fa50cb2319" />
+
+### Monitoring
+<img width="1909" height="971" alt="image" src="https://github.com/user-attachments/assets/8b9c8b1a-a30f-4758-bef3-49f950db216e" />
+
+
+
 
 
 
