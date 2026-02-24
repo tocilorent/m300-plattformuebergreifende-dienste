@@ -43,7 +43,23 @@ Ich bin im richtigen Docker drin und er läuft korrekt, jedoch läuft noch mein 
 Das Ganze wurde nun aufgeräumt
 <img width="936" height="216" alt="image" src="https://github.com/user-attachments/assets/d946b514-5407-408a-8de6-a15f40e74447" />
 
-## Nextcloud einrichten
+## Nextcloud Projekt
+### MariaDB starten
+<img width="939" height="441" alt="image" src="https://github.com/user-attachments/assets/711fcb5e-f6c4-491c-9164-c3cdf95da248" />
+
+Der Container restartet ständig -> also ist wahrscheinlich etwas falsch in der MariaDB Initialisierung. Die Datenbank startet -> crashed -> startet wieder neu
+#### Fehler erkannt: 
+- In den Logs nachgeschaut (docker logs nc_db)
+- Problem war nicht die Konfiguration, sondern dass meine Xenial VM zu alt ist
+#### Fehlerbehebung:
+- Container komplett löschen und richtiges Image verwenden, statt mariadb:10.6 verwende ich nun mariadb:10.3
+Ergebnis -> Kein Restarting mehr, läuft nun sauber und korrekt
+<img width="941" height="134" alt="image" src="https://github.com/user-attachments/assets/5e52dcb3-72dc-4cce-8277-9fe5055fc380" />
+
+### Nextcloud Container starten
+
+
+
 
 
 
