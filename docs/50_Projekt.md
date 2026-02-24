@@ -87,6 +87,11 @@ Docker gestartet
 ### Monitoring
 <img width="1909" height="971" alt="image" src="https://github.com/user-attachments/assets/8b9c8b1a-a30f-4758-bef3-49f950db216e" />
 
+- Anmeldung durchgeführt
+#### Neuen Monitor hinzugefügt
+<img width="940" height="794" alt="image" src="https://github.com/user-attachments/assets/eaf21fdd-18d3-459f-b5fd-401feb98f973" />
+
+
 
 
 
