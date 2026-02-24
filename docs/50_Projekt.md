@@ -62,7 +62,9 @@ Beim booten meiner Vagrant Xenial VM kam immer eine SSH-Fehlermeldung. Es gab im
 #### Fehlerbehebung
 <img width="746" height="453" alt="image" src="https://github.com/user-attachments/assets/f63ee692-82a8-4f8f-a739-5c65adffdeb2" />
 
+
 Der Fehler liegt an Xenial. Die Version ist alt. Ich bin daher auf Yammy umgestiegen, in dem ich das im Vagrantfile geändert habe. (config.vm.box = "ubuntu/jammy64") -> Nun funktioniert die VM sowie Docker reibungslos.
+
 <img width="709" height="164" alt="image" src="https://github.com/user-attachments/assets/d2c8e35f-1d0e-4e1b-becb-c14b8b9bb0ac" />
 
 
