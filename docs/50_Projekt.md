@@ -1,10 +1,8 @@
 # Self-Hosted Cloud mit Nextcloud & Monitoring
 ## Projektübersicht
-In diesem Projekt wird eine containerisierte Self-Hosted-Cloud-Lösung auf Basis von Docker realisiert. Ziel ist es, einen produktionsnahen Dienst bereitzustellen, der zentrale Aspekte wie Netzwerkstruktur, Persistenz, Sicherheit und Monitoring berücksichtigt.
-
-Als Applikation wird Nextcloud eingesetzt. Nextcloud ist eine Open-Source-Plattform zur Dateiablage und Zusammenarbeit und stellt eine selbst gehostete Alternative zu Cloud-Diensten wie Google Drive oder OneDrive dar.
-
-Die Lösung wird vollständig containerisiert mittels Docker Compose umgesetzt und lokal über Docker Desktop betrieben.
+In diesem Projekt wird eine containisierte Self-Hosted-Cloud-Lösung auf Basis von Docker realisiert. Ziel ist es, einen produktionsnahen Dienst bereitzustellen, der zentrale Aspekte wie Netzwerkstruktur, Persistenz, Sicherheit und Monitoring berücksichtigt.
+Als Applikation wird Nextcloud eingesetzt. Nextcloud ist eine Open-Source-Plattform zur Dateiablage und Zusammenarbeit und stellt eine selbst gehostete Alternative zu Cloud-Diensten wie Google Drive oder OneDrive dar. 
+Die Lösung wird vollständig containisiert mittels Docker Compose umgesetzt und lokal über Docker Desktop betrieben.
 
 ## Ziel des Projekts 
 
