@@ -94,6 +94,11 @@ Nextcloud ist nun up
 
 <img width="1898" height="712" alt="image" src="https://github.com/user-attachments/assets/59c128e4-f396-46fd-88b9-a2711ee44002" />
 
+### Netzwerk
+- 8080 -> Nextcloud Webinterdace
+- 3306 -> MariaDB (Intern)
+- 3001 -> Uptime Kuma
+
 
 
 
