@@ -1,11 +1,10 @@
 # Self-Hosted Cloud mit Nextcloud & Monitoring
 ## Projektübersicht
-In diesem Projekt wird eine containerisierte Self-Hosted-Cloud-Lösung auf Basis von Docker realisiert.
-Ziel ist es, einen produktionsnahen Dienst bereitzustellen, der in einer virtualisierten Umgebung betrieben wird und zentrale Aspekte wie Netzwerk, Persistenz, Sicherheit und Monitoring berücksichtigt.
+In diesem Projekt wird eine containerisierte Self-Hosted-Cloud-Lösung auf Basis von Docker realisiert. Ziel ist es, einen produktionsnahen Dienst bereitzustellen, der zentrale Aspekte wie Netzwerkstruktur, Persistenz, Sicherheit und Monitoring berücksichtigt.
 
 Als Applikation wird Nextcloud eingesetzt. Nextcloud ist eine Open-Source-Plattform zur Dateiablage und Zusammenarbeit und stellt eine selbst gehostete Alternative zu Cloud-Diensten wie Google Drive oder OneDrive dar.
 
-Die Lösung wird innerhalb einer Vagrant-VM unter Ubuntu betrieben und vollständig containerisiert umgesetzt.
+Die Lösung wird vollständig containerisiert mittels Docker Compose umgesetzt und lokal über Docker Desktop betrieben.
 
 ## Ziel des Projekts 
 
@@ -23,13 +22,12 @@ Ziel dieses Projektes ist es:
 
 Die Architektur basiert auf einer klaren Trennung der Komponenten:
 
-- Hostsystem: Notebook mit Vagrant & VirtualBox
-- Virtuelle Maschine: Ubuntu 16.04
-- Containerisierung: Docker Engine
+- Hostsystem: Notebook mit Docker Desktop
+- Containerisierung: Docker Engine & Docker Compose
 - Frontend: Nextcloud Container
 - Backend: MariaDB Container
-- Monitoring: cAdvisor Container
-- Netzwerk: Docker internes Netzwerk
+- Monitoring: Uptime Kuma Container
+- Netzwerk: Docker internes Bridge-Netzwerk
 - Persistenz: Docker Volumes
 
 
