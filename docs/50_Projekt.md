@@ -112,9 +112,17 @@ Datenbank prüfen
 <img width="1891" height="982" alt="image" src="https://github.com/user-attachments/assets/dd04d167-d1f8-4872-be8c-405da5ed546a" />
 
 ## Persistenz-Test
-Neue Datei in Nextcloud hinzugefügt (Test_Projekt_50)
+### Neue Datei in Nextcloud hinzugefügt (Test_Projekt_50)
 
 <img width="1905" height="978" alt="image" src="https://github.com/user-attachments/assets/71c02332-04c9-47a7-a401-38bcf44b13f0" />
+
+### Container neugestartet
+<img width="641" height="127" alt="image" src="https://github.com/user-attachments/assets/9d4fa800-a158-4719-b1ec-5423029702a5" />
+
+### Datei noch da -> Persistenz funktioniert
+<img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/7e7c512f-476a-4a5e-bc9f-d2fc5186f004" />
+
+
 
 
 
