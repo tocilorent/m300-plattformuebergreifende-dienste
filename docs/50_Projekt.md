@@ -37,7 +37,12 @@ Die Architektur basiert auf einer klaren Trennung der Komponenten:
 # Dokumentation
 
 ## Docker testen
-<img width="901" height="180" alt="image" src="https://github.com/user-attachments/assets/e52670d9-f01e-4390-967a-1820354cdfe1" />
 Ich bin im richtigen Docker drin und er läuft korrekt, jedoch läuft noch mein alter Container. Damit das Projekt reibungslos verlaufen kann, erstelle ich sicherheitshalber eine saubere Umgebung.
+<img width="901" height="180" alt="image" src="https://github.com/user-attachments/assets/e52670d9-f01e-4390-967a-1820354cdfe1" />
+
+Das Ganze wurde nun aufgeräumt
+<img width="936" height="216" alt="image" src="https://github.com/user-attachments/assets/d946b514-5407-408a-8de6-a15f40e74447" />
+
+
 
 
