@@ -57,6 +57,13 @@ Ergebnis -> Kein Restarting mehr, läuft nun sauber und korrekt
 <img width="941" height="134" alt="image" src="https://github.com/user-attachments/assets/5e52dcb3-72dc-4cce-8277-9fe5055fc380" />
 
 ### Nextcloud Container starten
+#### Fehler erkannt:
+Beim booten meiner Vagrant Xenial VM kam immer eine SSH-Fehlermeldung. Es gab immer einen Timeout. Ich habe mein PC neugestartet, Netzwerkadaptereigenschaften geändert und die VM mehrfach gelöscht und wieder gebootet. Jedoch nützte das alles nicht.
+#### Fehlerbehebung
+<img width="746" height="453" alt="image" src="https://github.com/user-attachments/assets/f63ee692-82a8-4f8f-a739-5c65adffdeb2" />
+Der Fehler liegt an Xenial. Die Version ist alt. Ich bin daher auf Yammy umgestiegen, in dem ich das im Vagrantfile geändert habe. (config.vm.box = "ubuntu/jammy64") -> Nun funktioniert die VM sowie Docker reibungslos.
+<img width="709" height="164" alt="image" src="https://github.com/user-attachments/assets/d2c8e35f-1d0e-4e1b-becb-c14b8b9bb0ac" />
+
 
 
 
