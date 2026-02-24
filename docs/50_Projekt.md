@@ -99,6 +99,9 @@ Nextcloud ist nun up
 - 3306 -> MariaDB (Intern)
 - 3001 -> Uptime Kuma
 
+<img width="610" height="176" alt="image" src="https://github.com/user-attachments/assets/e0cbe4a1-91e3-4340-8109-3cadac9d3970" />
+
+
 
 
 
