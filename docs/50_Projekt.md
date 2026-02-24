@@ -67,6 +67,13 @@ Der Fehler liegt an Xenial. Die Version ist alt. Ich bin daher auf Yammy umgesti
 
 <img width="709" height="164" alt="image" src="https://github.com/user-attachments/assets/d2c8e35f-1d0e-4e1b-becb-c14b8b9bb0ac" />
 
+--FEHLER LIEGT HÖCHSTWAHRSCHEINLICH BEI VAGRANT--
+In der Vagrant/Xenial VM gab es reproduzierbare Probleme (Logs + Fehlerauszug).
+Ich umgehe das in dem ich die Docker-Desktop Version benutze und dort ein Compose erstelle
+Ziel ist Containerisierung + Networking + Volumes + Monitoring.
+
+
+
 
 
 
