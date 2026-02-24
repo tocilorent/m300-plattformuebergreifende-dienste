@@ -132,7 +132,7 @@ Das ist das Root-Verzeichnis von Nextcloud
 
 <img width="886" height="143" alt="image" src="https://github.com/user-attachments/assets/71218c55-c780-429f-b965-323d00c2b0e2" />
 
-# Persörnliches Fazit
+# Persönliches Fazit
 Im Rahmen dieses Projekts habe ich gelernt, wie ein moderner Dienst mit Docker strukturiert aufgebaut und betrieben wird. Nextcloud wurde erfolgreich mit einer MariaDB-Datenbank kombiniert, über ein internes Docker-Netzwerk verbunden und mittels Volumes persistent gespeichert. Zusätzlich konnte ich mit Uptime Kuma eine Monitoring-Lösung integrieren und Ausfälle gezielt testen. Besonders lehrreich war die Fehlersuche bei Problemen mit veralteten Systemversionen und Container-Images, da ich dadurch verstanden habe, wie wichtig stabile Basisumgebungen und Log-Analyse sind. Insgesamt hat mir das Projekt geholfen, Containerisierung, Netzwerkstruktur, Persistenz und Monitoring praxisnah zu verstehen und eigenständig umzusetzen.
 
 
