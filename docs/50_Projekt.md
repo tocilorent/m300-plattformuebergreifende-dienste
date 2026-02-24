@@ -30,6 +30,8 @@ Die Architektur basiert auf einer klaren Trennung der Komponenten:
 
   
 -> Final umgesetzt mit Docker Desktop + Docker Compose (lokal)
+
+
 -> Vagrant/Ubuntu war Test/Fehlerphase und wird im Kapitel "Fehleranalyse" dokumentiert
 
 
