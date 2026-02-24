@@ -109,6 +109,41 @@ Per Browser: http://192.168.56.11
 ## Fehler im Vagrantfile - Vagrantfile neu aufsetzen
 <img width="769" height="94" alt="image" src="https://github.com/user-attachments/assets/cf21206d-5cf2-41f7-906c-d159d498a52a" />
 
+Beim Ausführen von vagrant up (bzw. vagrant reload --provision) ist Vagrant direkt mit einem Fehler abgebrochen. Vagrant hat das Vagrantfile nicht korrekt interpretieren können (Ruby-Syntax/Strukturfehler). Dadurch wurde keine VM erstellt und folglich konnte auch die Firewall-Provisionierung nicht laufen.
+
+Erkennbar war: Es liegt kein Problem mit UFW selbst vor, sondern Vagrant kann die Konfiguration gar nicht erst laden.
+Validierung/Fehlermeldung auslösen
+
+Ich habe den Fehler reproduziert mit:
+
+vagrant up
+
+optional: vagrant validate (prüft die Vagrantfile-Syntax sehr schnell)
+
+Fehlermeldung interpretieren
+
+Die Fehlermeldung verwies sinngemäss auf einen Syntax-/Strukturfehler im Vagrantfile (typisch: “syntax error”, “unexpected end”, “expecting end”, oder Abbruch beim Parsen).
+
+Da ein Vagrantfile Ruby ist, sind die häufigsten Ursachen:
+
+fehlendes end
+
+falsche Blockstruktur (do ... end)
+
+fehlerhafte Anführungszeichen / Kommas
+
+Provisioning-Block nicht korrekt geschlossen
+
+Eingrenzung
+
+Ich habe das Vagrantfile schrittweise geprüft:
+
+Zuerst grob: stimmen alle do/end Paare?
+
+Dann im betroffenen Bereich: config.vm.define "proxy" do |proxy| ... end
+
+Zusätzlich habe ich geprüft, ob die config.vm.define-Zeile korrekt ist und ob proxy.vm.network und proxy.vm.provision innerhalb des define-Blocks stehen.
+
 Folgender Inhalt wurde im Vagrantfile eingefügt: 
 Vagrant.configure("2") do |config|
 
